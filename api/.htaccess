@@ -1,0 +1,5 @@
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "https://portal.clientagency.com"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header set Access-Control-Allow-Headers "Authorization, Content-Type"
+</IfModule>
